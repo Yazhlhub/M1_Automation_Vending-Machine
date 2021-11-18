@@ -1,4 +1,7 @@
-vending machine
+**VENDING MACHINE**
+
 cost and featues: vending
-SWOT analysis:
+
+**SWOT ANALYSIS:**
+
 automatic vending is the advantage and regularisation to be done
