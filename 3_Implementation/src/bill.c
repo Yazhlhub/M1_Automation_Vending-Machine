@@ -8,3 +8,12 @@
  * @copyright Copyright (c) 2021
  * 
  */
+#include <stdio.h>
+    #include <stdlib.h>
+    #include <conio.h>
+    #include <time.h>
+void bill(float billmoney)
+   {
+       printf("Total amount to be payed is: %.2f\n\n\n",billmoney);
+       return;
+   }
