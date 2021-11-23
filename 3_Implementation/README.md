@@ -1,4 +1,4 @@
-Implementation ideas
+
 ## Folder Structure
 Folder        | Description
 --------------| ----------------------------------------------
