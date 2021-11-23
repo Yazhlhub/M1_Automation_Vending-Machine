@@ -8,3 +8,13 @@
  * @copyright Copyright (c) 2021
  * 
  */
+#include <stdio.h>
+#include <stdlib.h>
+#include <conio.h>
+#include <time.h>
+void wait(int seconds)
+{
+    clock_t end_wait=(clock() + (seconds * CLOCKS_PER_SEC));
+    while(clock()<end_wait)
+    {}
+}
