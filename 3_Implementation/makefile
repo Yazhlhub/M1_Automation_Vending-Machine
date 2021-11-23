@@ -16,18 +16,24 @@ BUILD = build
 
 # All source code files
 SRC = main.c\
-src/guess.c\
-src/game.c\
+src/wait.c\
+src/Welcome_screen.c\
+src/bill.c\
+src/penceentered.c\
+src/menu.c\
+src/drinktotal.c\
+src/drinkchosen.c\
+src/cost.c\
 
 
 # All test source files
-TEST_SRC = test/test_game.c\
+TEST_SRC = test/test_automation.c\
 unity/unity.c\
 #Target_name : Dependencies
 #<TAB>Command
 
-target : main.c guess.c game.c game.h
-	gcc main.c guess.c game.c -o all.out
+target : main.c menu.c drinkchosen.c drinkchosen.h
+	gcc main.c menu.c drinkchosen.c -o all.out
 #To check if the OS is Windows or Linux and set the executable file extension and delete command accordingly
 ifdef OS
    RM = del /q
