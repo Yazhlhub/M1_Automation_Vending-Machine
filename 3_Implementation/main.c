@@ -1,7 +1,7 @@
 /**
  * @file main.c
  * @author yazhini
- * @brief 
+ * @brief .
  * @version 0.1
  * @date 2021-11-23
  * 
