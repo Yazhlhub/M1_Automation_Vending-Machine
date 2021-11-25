@@ -71,25 +71,42 @@ Finally, if all the above steps succeed then the user gets the selected item
 
 int main()
 {
-     welcome_screen();
+    
+    welcome_screen();
+     
      getch();
+     
     int q;
+    
     int entered;
+    
     int amount;
+    
     int cancel;
+    
     int select;
+    
     int selection;
+    
     int pence;
+    
     int billreq;
+    
     int change;
+    
     float drinkmax;
+    
     float billmoney;
+    
     float itemprice;
+    
     float coinselected;
+    
     float total;
 
 
     selection = menu();
+    
     drinkchosen(selection);
 
 
