@@ -64,7 +64,7 @@ Finally, if all the above steps succeed then the user gets the selected item
   **LOW LEVEL REQUIREMENTS:**
   
   1.Id: LLR_01
-  Description: correct cash
+  Description: correct cash.
  
 
 
